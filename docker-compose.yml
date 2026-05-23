@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend/data:/app/data
+      - backend_db:/app
+    environment:
+      - DATABASE_URL=sqlite:////app/accessbank.db
+      - CHROMA_PERSIST_DIR=/app/data/chroma
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_URL=http://localhost:8000
+
+  # Run separately: docker compose run telegram
+  telegram:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: python run_telegram.py
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - backend
+    profiles:
+      - telegram
+
+volumes:
+  backend_db:

@@ -1,0 +1,32 @@
+:root {
+  --ab-orange: #f47920;
+  --ab-dark: #1a1a2e;
+  --ab-gray: #f4f5f7;
+  --ab-border: #e2e4e9;
+  --critical: #dc2626;
+  --negative: #ea580c;
+  --neutral: #ca8a04;
+  --positive: #16a34a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--ab-gray);
+  color: var(--ab-dark);
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
