@@ -31,7 +31,9 @@ build/
 backend/accessbank.db
 backend/data/chroma/
 data/chroma/
-data/
+data/*
+!backend/data/
+!backend/data/knowledge_base.json
 
 # Node
 node_modules/

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "hours",
+    "topic": "working_hours",
+    "text": "AccessBank iş saatları: Bazar ertəsindən şənbə gününə qədər 09:00-18:00. Bazar günü bağlıdır. / Working hours: Monday-Saturday 09:00-18:00. Sunday closed."
+  },
+  {
+    "id": "contact",
+    "topic": "contact",
+    "text": "AccessBank əlaqə: Qısa nömrə 151, WhatsApp +994554400151, e-poçt support@accessbank.az, veb sayt https://www.accessbank.az"
+  },
+  {
+    "id": "cards",
+    "topic": "card_services",
+    "text": "Kart xidmətləri: debet və kredit kartları, onlayn ödəniş, kart bloklama/itmiş kart üçün dərhal 151 və ya mobil tətbiq vasitəsilə müraciət edin. Yeni kart 5-10 iş günü ərzində çatdırılır."
+  },
+  {
+    "id": "mobile",
+    "topic": "mobile_banking",
+    "text": "Mobil bankçılıq: AccessBank mobil tətbiqi ilə balans, köçürmə, ödəniş, kart idarəetməsi. OTP ilə təsdiq. Dəstək: Digital Banking şöbəsi."
+  },
+  {
+    "id": "loans",
+    "topic": "loans",
+    "text": "Kreditlər: istehlak krediti, ipoteka, avtomobil krediti. Müraciət filialda və ya onlayn. Sənədlər: şəxsiyyət vəsiqəsi, gəlir arayışı. Status sorğusu Loans & Applications şöbəsində."
+  },
+  {
+    "id": "branches",
+    "topic": "branches",
+    "text": "Filial şəbəkəsi: Bakı və regionlarda AccessBank filialları. Ən yaxın filialı accessbank.az saytında 'Filiallar' bölməsindən tapın."
+  },
+  {
+    "id": "complaint",
+    "topic": "complaint_process",
+    "text": "Şikayət prosesi: müraciətiniz qeydə alınır və müvafiq şöbəyə yönləndirilir. Rəsmi cavab müddəti 15-30 iş günüdür. Təcili hallarda 151 zəng edin."
+  },
+  {
+    "id": "transfers",
+    "topic": "transfers",
+    "text": "Köçürmələr: daxili, ölkədaxili və beynəlxalq köçürmələr. Uğursuz köçürmə halında məbləğ 3-5 iş günü ərzində geri qaytarıla bilər. Tranzaksiya tarixini saxlayın."
+  },
+  {
+    "id": "internet",
+    "topic": "internet_banking",
+    "text": "İnternet bankçılıq: accessbank.az üzərindən hesab idarəetməsi, ödənişlər, sənədlər. Giriş problemi üçün OTP və şifrə bərpası — heç vaxt PIN paylaşmayın."
+  },
+  {
+    "id": "security",
+    "topic": "security",
+    "text": "Təhlükəsizlik: AccessBank heç vaxt PIN, CVV, OTP və ya tam kart nömrəsi tələb etmir. Fırıldaqçılıq şübhəsində dərhal 151."
+  }
+]
